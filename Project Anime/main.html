@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/cycle2.js"></script>
+    <title>Project KA</title>
+    <link rel="stylesheet" type="text/css" href="testcss.css">
+    <style>
+    .side{
+        background-color: #dfdce3;
+        padding:6px 20px;
+        list-style-type: armenian;
+    }
+    #img{
+        background-color:transparent;
+        height: 220px;
+    }
+  
+    </style>
+    
+</head>
+<body>
+   <header>
+       <nav>
+           <ul>
+            <li class="menu">
+                <a href="javascript:void(0)" class="dropmenu">Home</a>
+                </li>
+            <div class="dropdown">
+                <li class="menu">
+                    <a href="javascript:void(0)" class="dropmenu">Genre</a>
+                <div class="dropdown-content">
+                    <a href="#">Action</a>
+                    <a href="#">Adventure</a>
+                    <a href="#">Comedy</a>
+                    <a href="#">Fantasy</a>
+                    <a href="#">Slice of life</a>
+                    <a href="#">Mystery</a>
+                    <a href="#">Supernatural</a>
+                    <a href="#">Psychological</a>
+                    <a href="#">Magic</a>
+                </div>
+                </li>
+                </div>
+                <div class="dropdown">
+                    <li class="menu">
+                        <a href="javascript:void(0)" class="dropmenu">Anime</a>
+                   <div class="dropdown-content">
+                        <a href="#">My Watched list</a>
+                        <a href="#">Pending</a>
+                        <a href="#">My Best</a>
+                    </div>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <div class="cycle-slideshow" data-cycle-slides=".slide">
+            <span class="cycle-prev">&laquo;</span>
+            <span class="cycle-next">&raquo;</span>
+            <div class="slide">
+           <img src="Black clover.jpg" width=600px; height="300px">
+           <div class="slide-text"><p><b>Black Clover</b></p></div>
+            </div>
+            <div class="slide">
+           <img src="code_geass.jpg" width=600px; height="300px">
+           <div class="slide-text"><p><b>Code Geass</b></p></div>
+            </div>
+            <div class="slide">
+           <img src="Naruto.jpg" width=600px; height="300px">
+           <div class="slide-text"><p><b>Naruto</b></p></div>
+        </div>
+        </div>
+        <div class="box-2">
+            <p></p>
+        </div>
+        <div class="box-2">
+
+        </div>
+        <div class="box-3">
+            <p style="text-align: center; color:black; font-size: 20px;"><em><b>Recently Watched</b></em></p>
+            <marquee direction="up" scrollamount=3 height=65%>
+            <ul class="side">
+                <li>Daily life of Immortal King</li>
+                <li>Blue Exorcist</li>
+                <li>Jobless Reincarnation</li>
+                <li>Akashic record</li>
+                <li>Promised neverland</li>
+                <li>Classroom of elite</li>
+                <li>Soul Eater</li>
+                <li>Bungo stary dog</li>
+                <li>Misfit of demon king academy</li>
+                <li>Seraph of end</li>
+            </ul>
+            </marquee>
+        </div>
+        <div class="archit1">
+            <p class="topic_title">My some favorite Anime</p>
+        </div>
+        <div class="box-plate">
+        <div class="dropdown" id="img">
+            <img src="Black clover.jpg" alt="Black Clover" height="220" width="auto">
+            <div class="dropdown-content">
+                <img src="Black clover.jpg" height="340" width="auto">
+                <div class="desc">BLACK CLOVER</div>
+            </div>
+        </div>
+        </div>
+        <div class="box-plate">
+            <div class="dropdown" id="img2">
+                <img src="Naruto.jpg" alt="Naruto" height="220" width="auto">
+                <div class="dropdown-content">
+                    <img src="Naruto.jpg" height="340" width="auto">
+                    <div class="desc">Naruto</div>
+                </div>
+            </div>
+            </div>
+            <div class="box-plate">
+                <div class="dropdown" id="img">
+                    <img src="code_geass.jpg" alt="code geass" height="220" width="auto">
+                    <div class="dropdown-content">
+                        <img src="code_geass.jpg" height="340" width="auto">
+                        <div class="desc">Code Geass</div>
+                    </div>
+                </div>
+                </div>
+
+    </main> 
+    <footer class="footer-box">
+        <div>
+            <p><b>Guided by: Tameshwar Das Jangade</b></p>
+        </div>
+    </footer>
+</body>
+</html>
